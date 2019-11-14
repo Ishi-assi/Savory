@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Savory</string>
+    <string name="category">Category(1)</string>
+    <string name="example">Example</string>
+    <string name="Search">Search</string>
+    <string name="phone">Phone:</string>
+    <string name="rating">Rating:</string>
+    <string name="no_result_found">No Result Found</string>
+    <string name="ok">Ok</string>
+</resources>
