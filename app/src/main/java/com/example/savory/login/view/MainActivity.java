@@ -254,10 +254,12 @@ public class MainActivity extends AppCompatActivity implements CommonDialogFragm
                             mLongitude = mLastLocation.getLongitude();
 
                         } else {
+                            if(task.getException()!=null) {
                             commonDialogFragment = CommonDialogFragment.newInstance("Error", task.getException().getMessage().toString(), MainActivity.this, 3);
                             commonDialogFragment.show(fm, "dialog");
                         }
                     }
+		}
                 });
 
     }
